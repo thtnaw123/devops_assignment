@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api", (req, res) => {
-  res.send("another api endpoint");
+  res.send("hello every one");
 });
 app.listen(5000, (req, res) => {
   console.log("listening on port 5000...");
